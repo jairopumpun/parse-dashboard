@@ -118,20 +118,20 @@ export default class DashboardView extends React.Component {
     let analyticsSidebarSections = [];
 
     //These analytics pages may never make it into parse server
-    /*
-    if (...) {
+    
+    if (true) {
       analyticsSidebarSections.push({
         name: 'Overview',
         link: '/analytics/overview'
       });
     }
 
-    if (...) {
+    if (true) {
       analyticsSidebarSections.push({
         name: 'Explorer',
         link: '/analytics/explorer'
       });
-    }*/
+    }
 
     //These ones might, but require some endpoints to added to Parse Server
     /*
